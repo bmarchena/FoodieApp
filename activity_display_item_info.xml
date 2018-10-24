@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DisplayItemInfo">
+
+    <TextView
+        android:id="@+id/expandMeal_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="48sp"
+        android:textStyle="italic"
+        android:textColor="@android:color/holo_orange_light"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/expandMeal_image"
+        android:layout_centerHorizontal="true"
+        android:layout_height="250dp"
+        android:layout_width="250dp"
+        android:layout_below="@id/expandMeal_title"
+        />
+
+    <TextView
+        android:id="@+id/expandMeal_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/tv_padding"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_red_light"
+        android:layout_below="@id/expandMeal_image"/>
+
+    <TextView
+        android:id="@+id/expandMeal_ingredients"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/tv_padding"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_purple"
+        android:layout_below="@id/expandMeal_desc"/>
+
+    <TextView
+        android:id="@+id/expandMeal_calories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/tv_padding"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_green_dark"
+        android:layout_below="@id/expandMeal_ingredients"/>
+
+
+    <TextView
+        android:id="@+id/expandMeal_recipe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/tv_padding"
+        android:onClick="openRecipe"
+        android:textSize="24sp"
+        android:textColor="@android:color/holo_blue_light"
+        android:layout_below="@id/expandMeal_calories"/>
+
+
+</RelativeLayout>
+</ScrollView>

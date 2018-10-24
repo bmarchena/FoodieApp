@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">FoodieApp</string>
+    <string name="alertDialog_title">Delete Item</string>
+    <string name="alertDialog_message">Would you like to delete this menu item?</string>
+    <string name="alertDialog_neg">No</string>
+    <string name="alertDialog_pos">Yes</string>
+    <string name="addItem_activityTitle">Add a menu item!</string>
+    <string name="foodName_label">Food Name:</string>
+    <string name="foodDesc_label">Food Desc.:</string>
+    <string name="ingredients_label">Ingredients:</string>
+    <string name="calories_label">Calories:</string>
+    <string name="recipe_label">Recipe URL:</string>
+    <string name="submit_button">Submit</string>
+
+    <string name="meal_title0">Pizza</string>
+    <string name="meal_title1">Steak</string>
+    <string name="meal_title2">BLT</string>
+    <string name="meal_title3">Empanadas</string>
+    <string name="meal_title4">Cheeseburger</string>
+    <string name="meal_title5">Omelette</string>
+    <string name="meal_title6">Sushi</string>
+
+    <string name="meal_desc0">Pizza bread is a type of sandwich that is often served open-faced which consists of bread, tomato sauce, cheese and various toppings.</string>
+    <string name="meal_desc1">The more tender cuts of beef, from the loin and rib, are cooked quickly, using dry heat, and served whole.</string>
+    <string name="meal_desc2">A BLT is a type of sandwich, named for the initials of its primary ingredients, bacon, lettuce and tomato. It can be made with varying recipes according to personal preference.</string>
+    <string name="meal_desc3">An empanada is a type of pasty which may consist of meat, cheese, corn, or other ingredients.</string>
+    <string name="meal_desc4">A cheeseburger is a hamburger topped with cheese. Traditionally, the slice of cheese is placed on top of the meat patty, but the burger can include many variations in structure, ingredients, and composition.</string>
+    <string name="meal_desc5">An omelette or omelet is a dish made from beaten eggs fried with butter or oil in a frying pan (without stirring as in scrambled egg). It is quite common for the omelette to be folded around a filling such as cheese, chives, or vegetables.</string>
+    <string name="meal_desc6">Sushi is a Japanese dish of specially prepared vinegared rice, usually with some sugar and salt, combined with a variety of ingredients such as seafood, vegetables, and occasionally tropical fruits.</string>
+
+    <string name="meal_ing0">Cheese, Dough, Flour, Tomato Sauce, Optional toppings</string>
+    <string name="meal_ing1">Beef, Salt, Pepper, Olive oil</string>
+    <string name="meal_ing2">Bread, Bacon, Lettuce, Tomato</string>
+    <string name="meal_ing3">Dough, Cheese, Meat</string>
+    <string name="meal_ing4">Buns, Beef Patty, Cheese, Lettuce, Tomato, Bacon</string>
+    <string name="meal_ing5">Eggs, Peppers, Tomatoes, Salt, Pepper,</string>
+    <string name="meal_ing6">Nori, Fish, Roe, Rice, Rice Vinegar, Soy Sauce</string>
+
+    <string-array name="meal_titles">
+        <item>@string/meal_title0</item>
+        <item>@string/meal_title1</item>
+        <item>@string/meal_title2</item>
+        <item>@string/meal_title3</item>
+        <item>@string/meal_title4</item>
+        <item>@string/meal_title5</item>
+        <item>@string/meal_title6</item>
+    </string-array>
+
+    <string-array name="meal_desc">
+        <item>@string/meal_desc0</item>
+        <item>@string/meal_desc1</item>
+        <item>@string/meal_desc2</item>
+        <item>@string/meal_desc3</item>
+        <item>@string/meal_desc4</item>
+        <item>@string/meal_desc5</item>
+        <item>@string/meal_desc6</item>
+    </string-array>
+
+    <array name="meal_images">
+        <item>@drawable/pizza</item>
+        <item>@drawable/steak</item>
+        <item>@drawable/blt</item>
+        <item>@drawable/empanadas</item>
+        <item>@drawable/cheeseburger</item>
+        <item>@drawable/omelette</item>
+        <item>@drawable/sushi</item>
+        <item>@drawable/fork</item>
+    </array>
+
+    <string-array name="meal_calories">
+        <item>285 cal.</item>
+        <item>679 cal.</item>
+        <item>374 cal.</item>
+        <item>299 cal.</item>
+        <item>303 cal.</item>
+        <item>94 cal.</item>
+        <item>50 cal.</item>
+    </string-array>
+
+    <string-array name="meal_recipes">
+        <item>https://www.tasteofhome.com/recipes/homemade-pizza/</item>
+        <item>https://www.myrecipes.com/recipe/pan-seared-strip-steak</item>
+        <item>https://www.allrecipes.com/recipe/209578/blt/</item>
+        <item>https://www.allrecipes.com/recipe/71805/fried-empanadas</item>
+        <item>https://www.tasteofhome.com/recipes/all-american-bacon-cheeseburgers/</item>
+        <item>https://www.epicurious.com/recipes/food/views/classic-omelette-15068</item>
+        <item>https://www.tasteofhome.com/recipes/california-sushi-rolls/</item>
+    </string-array>
+
+    <string-array name="meal_ingredients">
+        <item>@string/meal_ing0</item>
+        <item>@string/meal_ing1</item>
+        <item>@string/meal_ing2</item>
+        <item>@string/meal_ing3</item>
+        <item>@string/meal_ing4</item>
+        <item>@string/meal_ing5</item>
+        <item>@string/meal_ing6</item>
+    </string-array>
+
+</resources>

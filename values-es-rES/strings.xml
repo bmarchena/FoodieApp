@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FoodieApp</string>
+    <string name="alertDialog_title">Eliminar Elemento</string>
+    <string name="alertDialog_message">¿Te gustaría eliminar este elemento del menú?</string>
+    <string name="alertDialog_neg">No</string>
+    <string name="alertDialog_pos">Sí</string>
+    <string name="addItem_activityTitle">Agregar una comida!</string>
+    <string name="foodName_label">Comida:</string>
+    <string name="foodDesc_label">Descripción:</string>
+    <string name="ingredients_label">Ingredientes:</string>
+    <string name="calories_label">Calorías:</string>
+    <string name="recipe_label">URL de la receta:</string>
+    <string name="submit_button">Submit</string>
+    <string name="meal_title0">Pizza</string>
+    <string name="meal_title1">Filete</string>
+    <string name="meal_title2">BLT</string>
+    <string name="meal_title3">Empanadas</string>
+    <string name="meal_title4">Hamburguesa con Queso</string>
+    <string name="meal_title5">Tortilla de Huevo</string>
+    <string name="meal_title6">Sushi</string>
+    <string name="meal_desc0">"El pan de pizza es un tipo de sándwich que a menudo se sirve con la cara abierta, que consiste en pan, salsa de tomate, queso y varias coberturas."</string>
+    <string name="meal_desc1">"Los cortes más tiernos de la carne, de lomo y costilla, se cocinan rápidamente, utilizando calor seco y se sirven enteros."</string>
+    <string name="meal_desc2">"Un BLT es un tipo de sándwich, llamado así por las iniciales de sus ingredientes principales, tocino, lechuga y tomate. Se puede hacer con diferentes recetas de acuerdo a las preferencias personales."</string>
+    <string name="meal_desc3">"Una empanada es un tipo de pasta que puede consistir en carne, queso, maíz u otros ingredientes."</string>
+    <string name="meal_desc4">"Una hamburguesa con queso es una hamburguesa con queso. Tradicionalmente, la rodaja de queso se coloca encima de la carne, pero la hamburguesa puede incluir muchas variaciones en la estructura, los ingredientes y la composición. "</string>
+    <string name="meal_desc5">"Una tortilla es un plato hecho de huevos batidos fritos con mantequilla o aceite en una sartén (sin revolver como en el huevo revuelto). Es muy común que la tortilla se doble alrededor de un relleno como el queso, el cebollino o las verduras. "</string>
+    <string name="meal_desc6">"El sushi es un plato japonés de arroz con vinagre especialmente preparado, generalmente con un poco de azúcar y sal, combinado con una variedad de ingredientes como mariscos, verduras y, ocasionalmente, frutas tropicales. "</string>
+    <string name="meal_ing0">"Queso, masa, harina, salsa de tomate, ingredientes opcionales "</string>
+    <string name="meal_ing1">Carne De Res, Sal, Pimienta, Aceite De Oliva</string>
+    <string name="meal_ing2">" Pan, Tocino, Lechuga, Tomate"</string>
+    <string name="meal_ing3">"Masa, queso, carne "</string>
+    <string name="meal_ing4">"Bollos, Carne De Vaca, Queso, Lechuga, Tomate, Tocino "</string>
+    <string name="meal_ing5">"Huevos, Pimientos, Tomates, Sal, Pimienta, "</string>
+    <string name="meal_ing6">"Nori, Pescado, Huevo, Arroz, Vinagre De Arroz, Salsa De Soja "</string>
+</resources>
