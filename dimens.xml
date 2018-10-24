@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <dimen name="cardview_padding">8dp</dimen>
-    <dimen name="tv_padding">20dp</dimen>
-    <dimen name="add_item_textsize">16sp</dimen>
-    <dimen name="add_item_textpadding">8dp</dimen>
-    <dimen name="add_item_viewPadding">30dp</dimen>
-    <dimen name="addItem_activityTextSize">30sp</dimen>
-</resources>
